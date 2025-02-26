@@ -7,8 +7,7 @@
     "spdlog",
     "directxtk",
     "catch2",
-    "rapidcsv",
-    "xbyak"
+    "rapidcsv"
   ],
-  "builtin-baseline": "7eb700c9688daed6d8bdcdc571ebe3eedea6a774"
+  "builtin-baseline": "b69712e331604d988093981007360257c362c81f"
 }

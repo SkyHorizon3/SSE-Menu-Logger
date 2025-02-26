@@ -39,7 +39,7 @@ RE::BSEventNotifyControl Event::ProcessEvent(const RE::MenuOpenCloseEvent* a_eve
 	return RE::BSEventNotifyControl::kContinue;
 }
 
-void Event::log(const std::string& message)
+void Event::log(const std::string& message) const
 {
 	SKSE::log::info("{}", message);
 	RE::ConsoleLog::GetSingleton()->Print(message.c_str());
